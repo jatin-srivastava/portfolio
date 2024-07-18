@@ -65,15 +65,18 @@
     .hello{
         font-size: 25px;
         margin-left: 46px;
+        color: rgb(236, 4, 4);
     }
     .name{
         font-size: 38px;
         margin-left: 80px;
+        color: rgb(255, 4, 4);
         
     }
     .title{
         font-size: 20px;
         margin-left: 100px;
+        color: rgb(255, 0, 0);
     }
     .resume{
         margin-right: 0px;
