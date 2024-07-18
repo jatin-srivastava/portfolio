@@ -1,0 +1,213 @@
+.back{
+    background-color: rgba(0, 0, 0, 0.89);
+    color: #ffffff;
+    height:1080px;
+}
+
+
+.divh:hover{
+    transform: scale(1.08);
+}
+.divh{
+    background-color: rgb(63, 61, 61);
+}
+img{
+    margin-top: 5px;
+}
+.navl{
+    display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;
+    
+}
+.skill{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.shado{
+    box-shadow:0px 0px 20px rgba(247, 130, 63, 0.986);   
+}
+.css{
+    box-shadow:0px 0px 20px rgba(80, 61, 255, 0.986); 
+}
+.js{
+    box-shadow:0px 0px 20px rgba(235, 255, 54, 0.986); 
+}
+.rj{
+    box-shadow:0px 0px 20px rgba(63, 189, 247, 0.986); 
+}
+.nj{
+    box-shadow:0px 0px 20px rgba(76, 241, 35, 0.986); 
+}
+.py{
+    box-shadow:0px 0px 20px rgba(71, 172, 240, 0.986); 
+}
+.ej{
+    box-shadow:0px 0px 20px rgba(22, 16, 12, 0.986); 
+}
+.md{
+    box-shadow:0px 0px 20px rgba(69, 235, 19, 0.986); 
+}
+.bs{
+    box-shadow:0px 0px 20px rgba(158, 55, 255, 0.986); 
+    margin-left: 28px;
+}
+.tw{
+    box-shadow:0px 0px 20px rgba(115, 201, 241, 0.986); 
+}
+.git{
+    box-shadow:0px 0px 20px rgba(243, 145, 54, 0.986); 
+}
+.github{
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.986); 
+}
+.rest{
+    box-shadow:0px 0px 20px rgba(115, 201, 241, 0.986); 
+}
+
+@media only screen and (max-width: 578px) {
+   .flex1{
+    display: flex;
+   }
+   
+   img{
+    width: 100px;
+   }
+   .ptag{
+    font-size: 5px;
+    
+   }
+   .mxw{
+    max-width: 200px;
+    margin: 5px;
+   }
+   .shado{
+    box-shadow:0px 0px 5px rgba(247, 130, 63, 0.986);   
+}
+.css{
+    box-shadow:0px 0px 5px rgba(80, 61, 255, 0.986); 
+}
+.js{
+    box-shadow:0px 0px 5px rgba(235, 255, 54, 0.986); 
+}
+.rj{
+    box-shadow:0px 0px 5px rgba(63, 189, 247, 0.986); 
+}
+.nj{
+    box-shadow:0px 0px 5px rgba(76, 241, 35, 0.986); 
+}
+.py{
+    box-shadow:0px 0px 5px rgba(71, 172, 240, 0.986); 
+}
+.ej{
+    box-shadow:0px 0px 5px rgba(22, 16, 12, 0.986); 
+}
+.md{
+    box-shadow:0px 0px 5px rgba(69, 235, 19, 0.986); 
+}
+.bs{
+    box-shadow:0px 0px 5px rgba(158, 55, 255, 0.986); 
+    margin-left: 28px;
+}
+.tw{
+    box-shadow:0px 0px 5px rgba(115, 201, 241, 0.986); 
+}
+.git{
+    box-shadow:0px 0px 20px rgba(243, 145, 54, 0.986); 
+}
+.github{
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.986); 
+}
+.rest{
+    box-shadow:0px 0px 20px rgba(115, 201, 241, 0.986); 
+}
+  }
+  @media only screen and (max-width: 423px) {
+    .flex1{
+     display: flex;
+    }
+    img{
+     width: 70px;
+    }
+    .ptag{
+     font-size: 8px;
+    }
+    .mxw{
+     max-width: 147px;
+     margin-bottom: 15px;
+    }
+    .shado{
+        box-shadow:0px 0px 8px rgba(247, 130, 63, 0.986);   
+    }
+    .css{
+        box-shadow:0px 0px 8px rgba(80, 61, 255, 0.986); 
+    }
+    .js{
+        box-shadow:0px 0px 8px rgba(235, 255, 54, 0.986); 
+    }
+    .rj{
+        box-shadow:0px 0px 8px rgba(63, 189, 247, 0.986); 
+    }
+    .nj{
+        box-shadow:0px 0px 8px rgba(76, 241, 35, 0.986); 
+    }
+    .py{
+        box-shadow:0px 0px 8px rgba(71, 172, 240, 0.986); 
+    }
+    .ej{
+        box-shadow:0px 0px 8px rgba(22, 16, 12, 0.986); 
+    }
+    .md{
+        box-shadow:0px 0px 8px rgba(69, 235, 19, 0.986); 
+    }
+    .bs{
+        box-shadow:0px 0px 8px rgba(158, 55, 255, 0.986); 
+        margin-left: 28px;
+    }
+    .tw{
+        box-shadow:0px 0px 8px rgba(115, 201, 241, 0.986); 
+    }
+    .git{
+        box-shadow:0px 0px 20px rgba(241, 109, 85, 0.986); 
+    }
+    .github{
+        box-shadow:0px 0px 20px rgba(0, 0, 0, 0.986); 
+    }
+    .rest{
+        box-shadow:0px 0px 20px rgba(115, 201, 241, 0.986); 
+    }
+   }
+   @media only screen and (max-width: 1152px) {
+    .back{
+        background-color: rgba(0, 0, 0, 0.89);
+        color: #ffffff;
+        height: 2300px;
+    }
+   }
+   @media only screen and (max-width: 890px) {
+    .back{
+        background-color: rgba(0, 0, 0, 0.89);
+        color: #ffffff;
+        height:2050px;
+    }
+   }
+   @media only screen and (max-width: 850px) {
+    .back{
+        background-color: rgba(0, 0, 0, 0.89);
+        color: #ffffff;
+        height:2000px;
+    }
+   }
+   @media only screen and (min-width: 768px) {
+    .back{
+        background-color: rgba(0, 0, 0, 0.89);
+        color: #ffffff;
+        height:1380px;
+    }
+   }
+
+
+
+   /* hovers all divs */
+   
