@@ -1,5 +1,6 @@
 import React from "react";
 import life from "../images/lifeline.avif";
+import { NavLink } from "react-router-dom";
 
 function Project() {
   return (
@@ -8,22 +9,22 @@ function Project() {
         <h1 className="text-center text-4xl font-bold">Project</h1>
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-          <a href="#">
+          <NavLink to="#">
             <img className="rounded-t-lg w-full h-auto" src={life} alt="" />
-          </a>
+          </NavLink>
           <div className="p-5">
-            <a href="#">
+            <NavLink to="#">
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Life Line Portal
               </h5>
-            </a>
+            </NavLink>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
               The Life Line portal connects blood donors and recipients
               seamlessly, offering educational resources and real-time updates
               on blood supply, while prioritizing security and privacy.
             </p>
-            <a
-              href="https://github.com/jatin-srivastava/finalproject.git"
+            <NavLink
+              to="https://github.com/jatin-srivastava/finalproject.git"
               className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               github code
@@ -36,13 +37,13 @@ function Project() {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M1 5h12m0 0L9 1m4 4L9 9"
                 />
               </svg>
-            </a>
+            </NavLink>
           </div>
         </div>
       </div>

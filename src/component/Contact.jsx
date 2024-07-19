@@ -1,7 +1,9 @@
 import React from 'react';
 import '../css/front.css';
+import { useFormik } from 'formik';
 
 function Contact() {
+  
   return (
     <div className="relative " id="contact">
       <div className="pho"></div> {/* This is the blurred background */}

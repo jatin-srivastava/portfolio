@@ -13,11 +13,11 @@ function Resume() {
     });
   };
   return (
-    <div class="resume flex justify-center mt-4">
+    <div className="resume flex justify-center mt-4">
       <a
         href={resumePDF}
         download="resume.pdf"
-        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-flex items-center"
         onClick={handleDownload}
       >
         <svg
