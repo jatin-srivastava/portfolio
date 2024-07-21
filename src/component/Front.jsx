@@ -7,7 +7,7 @@ function Front() {
       <div className="bg-cover bg-center h-screen relative">
         {/* Background with blur effect */}
         <div
-          className="bgimg absolute inset-0 bg-cover bg-center filter blur-sm z-0"
+          className="bgimg absolute inset-0 bg-cover bg-center filter blur z-0"
           style={{ backgroundImage: `url(${require("../images/p2.jpg")})` }}
         ></div>
 
