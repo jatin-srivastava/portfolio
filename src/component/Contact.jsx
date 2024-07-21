@@ -5,7 +5,10 @@ import { useState } from 'react';
 
 
 function Contact() {
-  const URL = 'http://localhost:3000/contact';
+  // const URL = 'http://localhost:3000/contact';
+
+  const URL = `${window.location.origin}/contact`;
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
