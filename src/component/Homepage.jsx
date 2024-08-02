@@ -9,13 +9,13 @@ import Contact from "./Contact";
 //  import { NavLink } from "react-router-dom";
 // import resumePDF from "../images/resume.pdf";
 
-import Front from "./Front";
+import Front from "./Hero";
 
 function HomePage() {
 
   return (
     <>
-    <div className="homepage ">
+    <div className="homepage">
       <Navbar />
       <Front/>
       <div>

@@ -4,7 +4,7 @@ import Resume from "./Resume";
 function Front() {
   return (
     <>
-      <div className="bg-cover bg-center h-screen relative">
+      <div className="bg-cover bg-center h-screen relative mt-10" id="hero">
         {/* Background with blur effect */}
         <div
           className="bgimg absolute inset-0 bg-cover bg-center filter blur z-0"
@@ -26,7 +26,7 @@ function Front() {
           </p>
           <Resume/>
           <br />
-          <p className=" container ta mx-auto text-lg text-gray-200 font-poppins">
+          <p className="intro  ta mx-auto text-lg text-gray-200 font-poppins">
             Greetings! I'm Jatin Srivastava, specializing in the MERN stack with
             a focus on crafting innovative web solutions. With a solid
             background in MongoDB, Express.js, React.js, and Node.js, I have

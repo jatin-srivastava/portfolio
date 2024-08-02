@@ -14,8 +14,9 @@ import rest from "../images/rest.svg";
 import "../css/education.css";
 
 const Education = () => {
-  return (
-    <div className="back">
+  return (<>
+  
+  <div className="back" id="education">
       <h1 className="skill">Skills</h1>
 
       <div className="flex flex1 justify-around flex-wrap">
@@ -204,7 +205,7 @@ const Education = () => {
 
       </div>
     </div>
-  );
+</>  );
 };
 
 export default Education;

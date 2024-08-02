@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 function Project() {
   return (
     <>
-      <div>
+      <div id="project">
         <h1 className="text-center text-4xl font-bold">Project</h1>
 
         <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">

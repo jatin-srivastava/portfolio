@@ -33,7 +33,7 @@ function Resume() {
             clipRule="evenodd"
           />
         </svg>
-        <span>Download resume</span>
+        <span >Download resume</span>
       </a>
     </div>
   );
