@@ -69,26 +69,26 @@
 @media only screen and (max-width: 576px) {
     .hello{
         font-size: 25px;
-        margin-left: 46px;
+        margin-left: 40px;
         color: rgb(236, 4, 4);
     }
     .name{
         font-size: 38px;
-        margin-left: 80px;
+        margin-left: 70px;
         color: rgb(255, 4, 4);
         
     }
     .title{
-        font-size: 8    0px;
-        margin-left: 100px;
+        font-size: 28px;
+        margin-left: 60px;
         color: rgb(255, 0, 0);
     }
     .resume{
         margin-right: 0px;
     }
-    /* .ta{
-        margin: 5px;
-    } */
+    .intro{
+        margin: 10px 5px 0px 5px;
+    }
 }
 
 /* photo  */
